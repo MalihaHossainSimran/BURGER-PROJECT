@@ -1,0 +1,326 @@
+/*
+global css section
+*/
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Bebas+Neue&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+/*    font-family: 'Alfa Slab One', cursive;
+
+    font-family: 'Bebas Neue', cursive;
+
+    font-family: 'Montserrat', sans-serif;
+    */
+
+/*header css*/
+header{
+	width: 100%;
+	background-image: url(img/banner.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 100vh;
+}
+.navbar-brand{
+	padding-top: 1rem !important;
+    padding-bottom: 1rem !important;
+}
+.nav-link{
+	font-family: 'Bebas Neue', cursive;
+	font-weight: bold;
+	text-transform: uppercase;
+	color: #3d2514 !important;
+	font-size: 18px;
+
+}
+.nav-item{
+	margin: 0 20px;
+    margin-top: 50px
+}
+
+.contact-info{
+	    position: absolute;
+    margin-left: 80px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+	color: #3d2514 !important;
+	font-size: 14px;
+	display: inline-block;
+    margin-top: 10px;
+}
+.contact-info p{
+	margin-left: 70px;
+    margin-top: 5px;
+}
+.banner-text{
+	display: table-cell;
+    vertical-align: middle;
+    height: 88vh;
+}
+.banner-text p{
+	font-family: 'Bebas Neue', cursive;
+    color: #3d2514;
+    font-size: 24px;
+    border: 2px dashed #3d2514;
+    padding: 6px 15px;
+    display: inline-block;
+}
+header h1{
+      font-family: 'Alfa Slab One', cursive;
+      color: #3d2514 !important;
+      font-size: 114px;
+      font-weight: 400;
+      text-transform: uppercase;
+          text-shadow: 4px 4px #ffffff;
+}
+header h2{
+      font-family: 'Alfa Slab One', cursive;
+      color: #3d2514 !important;
+      font-size: 56px;
+      font-weight: 400;
+      text-transform: uppercase;
+      text-shadow: 4px 4px #ffffff;
+}
+    /*post gallery sec*/
+
+    .post-gallery{
+    	width: 100%;
+    	padding: 80px 0;
+    }
+    .post-content h4{
+         font-size: 25px
+         font-family: 'Bebas Neue', cursive;
+         font-weight: bold;
+         color: #ffffff;
+    }
+    .post-content h2{
+         font-size: 42px;
+         font-family: 'Bebas Neue', cursive;
+         font-weight: bold;
+         color: #ffffff;
+    }
+    .post{
+    	position: relative;
+    }
+    .post-content{
+    	position: absolute;
+    	top: 32px;
+    	left: 32px;
+    }
+   .top{
+   	position: relative;
+   }
+   .bottom{
+   	position: relative;
+   	    margin-top: 32px;
+   }
+   .button{
+    background: #ffc045;
+    color: #3d2514;
+    border: none;
+    padding: 12px 12px;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-top: 35px;
+   }
+   
+   /*menu start*/
+   .menu{
+   	width: 100%;
+   	padding: 40px 0;
+   }
+  .menu h1{
+    font-family: 'Alfa Slab One', cursive;
+      color: #3d2514 !important;
+      font-size: 52px;
+      font-weight: 400;
+      text-transform: uppercase;
+  } 
+  .menu p{
+    font-family: 'Montserrat', sans-serif;
+    color: #3d2514 !important;
+      font-size: 18px;
+      font-weight: 300;
+  }
+  .menu h3{
+  	font-size: 42px;
+     font-family: 'Bebas Neue', cursive;
+     font-weight: 400;
+      color: #3d2514;
+      text-transform: uppercase;
+  }
+    .menu button{
+    	background: #bf2222;
+        font-family: 'Alfa Slab One', cursive;
+        color: white;
+        font-weight: 400;
+        text-transform: uppercase;
+        border: none;
+        padding: 12px 25px;
+    }
+    /*slider sec*/
+
+   .events{
+   	width: 100%;
+   	padding: 80px 0;
+   } 
+   .events h6{
+   	font-family: 'Bebas Neue', cursive;
+   	color: #3d3d3d;
+   	font-weight: bold;
+   	font-size: 30px;
+   }
+   .events h1{
+   	font-family: 'Alfa Slab One', cursive;
+    color: #3d2514 !important;
+    font-size: 50px;
+    font-weight: 400;
+    text-transform: uppercase;
+   }
+.events p{
+	font-family: 'Montserrat', sans-serif;
+    color: #3d3d3d !important;
+    font-size: 18px;
+    font-weight: 300
+}
+.shadow{
+	padding: 35px 25px;
+	box-shadow: 12px 12px 14px 0 rgba(0,0,0,0,2)
+}
+/*reservasion sec*/
+.reservation{
+	position: relative;
+}
+.reservation h3{
+	font-family: 'Bebas Neue', cursive;
+	font-size: 30px;
+	font-weight: 400;
+	color: #3d2514;
+	padding-bottom: 10px;
+	padding-top: 150px
+    text-transform: uppercase;
+    position: absolute;
+    margin-left: 570px;
+    margin-top: 70px;
+}
+.reservation h1{
+	font-family: 'Alfa Slab One', cursive;
+	font-size: 56px;
+	font-weight: 400;
+	color: #3d2514;
+	margin-bottom: 50px;
+    text-transform: uppercase;
+    position: absolute;
+    margin-left: 340px;
+    margin-top: 110px
+}
+.reservation form input {
+    padding: 10px 30px;
+    margin: 10px 10px;
+    width: 350px;
+    border: .5px solid black;
+}
+.submit{
+    background: red;
+    color: white;
+    font-family: 'Alfa Slab One', cursive;
+	font-size: 15px;
+	font-weight: 400;
+	border: none;
+	text-transform: uppercase;
+}
+.submit:hover{
+	background: #3d2514;
+    color: white;
+}
+.form{
+	position: absolute;
+	    margin-top: 250px;
+        margin-left: 280px;
+}
+
+/*footer*/
+.footer{
+   width: 100%;
+   padding: 50px 0;
+}
+.footer-img{
+ position: relative;
+}
+.footer-content{
+  position: absolute;
+  top: 90px;
+  left: 50px;
+  display: flex;
+  justify-content: space-between;
+  width: 100%
+}
+
+.fottertext {
+	color: white !important;
+	padding-top: 40px;
+	font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+}
+.footerend{
+	color: white !important;
+	padding-top: 120px;
+	font-family: 'Bebas Neue', cursive;
+    font-size: 18px;
+    font-weight: 200;
+}
+
+.icon{
+	    padding-right: 10px;
+        padding-top: 156px;
+        margin: 0px;
+}
+.icon ul{
+	    padding-left: 90px;
+}
+.icon ul li{
+	list-style: none;
+	margin-bottom: 15px;
+}
+.icon ul li{
+	font-family: 'Bebas Neue', cursive;
+    font-size: 18px;
+    color: white !important;
+    text-transform: uppercase;
+}
+.social-icon{
+	
+        padding-top: 143px;
+            padding-left: 304px;
+}
+.social-icon ul{
+	 padding-right: 60px;
+}
+.social-icon ul li{
+	list-style: none;
+	display: inline-block;
+	    margin-left: 20px;
+
+}
+
+.social-icon ul li a i{
+
+  height: 25px;
+  text-align: center;
+  width: 25px;
+  background-color: #fefefe;
+  color: black;
+  font-size: 15px;
+  line-height: 25px;
+  border-radius:60%;
+  transition: 0.5s ease-in-out;
+}
+.icon ul li a i:hover{
+	background-color: red;
+}
